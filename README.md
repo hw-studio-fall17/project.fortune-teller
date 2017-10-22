@@ -32,7 +32,7 @@ _____________________________________________________________________________
   * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "crystal ball", "stars", or "starry night"
 * Add a `<button>` to the page that says "TELL MY FORTUNE!" put an id on this button tag. (you will use the id later)
 
-### Contact Page in contact.html
+### Contact Page in `contact.html`
 * Put an `id` on the `<body>`. See below for an example
   ``` HTML
   <body id="contact-body">
@@ -50,7 +50,7 @@ _____________________________________________________________________________
   </div>
   ```
 
-### Reviews Page in reviews.html
+### Reviews Page in `reviews.html`
 * Use a [`<table>` HTML](https://www.w3schools.com/html/html_tables.asp) tag to create a list of reviews. See the example below:
   ![example table](images/example-table.png)
 
@@ -74,7 +74,7 @@ _____________________________________________________________________________
 
 
 ### In `script.js`
-* Select the "TEll MY FORTUNE" button using it's `id` and save it as a JavaScript variable. For example:
+* Select the "TELL MY FORTUNE" button using it's `id` and save it as a JavaScript variable. For example:
   * ``` var exampleVariable = $("#example-id") ```
 * Call the [click() jQuery function](https://api.jquery.com/click/) on your variable. 
   * Once the user clicks on the button we want to use prompt() to ask the user to "pick a number: 1, 2, 3, or 4". See [here](https://www.w3schools.com/jsref/met_win_prompt.asp) for an example
