@@ -87,7 +87,7 @@ _____________________________________________________________________________
     * **If** variable `number` is equal to 1, `alert()` the user: "You will have a happy life!"
     * **Else if** the number is 2, `alert()` the user: "There is great danger in your future!"
     * **Else if** the number is 3 `alert()` the user: "You will meet your soulmate today!"
-    * ** Else if** the number is 4 make up a fortune to  `alert()` the user
+    * **Else if** the number is 4 make up a fortune to  `alert()` the user
     * **Else** this means that they did not type in 1, 2, 3, or 4 to the prompt. You will probably want to `alert()` the user that they did not pick a valid number. But maybe you will want to tell them they have bad luck for 100 years!
 
 _____________________________________________________________________________
