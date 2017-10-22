@@ -1,23 +1,58 @@
 # Fortune Teller!
 
+##### You're going to create a fortune telling website!
+
+#### Check out this example:
+* http://tarot.fortunetellingfun.com/
+* http://www.freefortuneonline.com/
+* http://online-fortune-telling.com/
+* http://www.spellsofmagic.com/teller.html
+
+## Look at what was given to you...
+* You have three HTML files `home.html`, `reviews.html`, `contact.html`
+* You have a `style.css` that is already linked to all of your HTML files using: `<link rel="stylesheet" type="text/css" href="style.css">` in the `<head>` tag on every HTML file
+* jQuery is linked in the `<head>` of ALL of your HTML pages using: `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>` in the `<head>` tags
+* You have a `script.js` that is already linked in all of your HTML files using: `<script type="text/javascript" src="script.js"></script>` in the `<head>` tags
+
+_____________________________________________________________________________ 
 ## LEVEL ONE
 
 ### Home Page in `home.html`
-* Create a heading with your fortune teller name.
-* Change the background color of this page.
+* Add your fortune telling name where it says "WEBSITE NAME"
+* Add a [heading](https://www.w3schools.com/html/html_headings.asp) to your website
+* Put an `id` on the `<body>`. See below for an example
+  ``` HTML
+  <body id="home-body">
+    ...
+  </body>
+  ```
+* In `style.css` select the `id` to add a [background color](https://www.w3schools.com/cssref/pr_background-color.asp)
 * Change the text color of this page (you can keep it black if you prefer that)
 * Add an image to your page. It can be whatever image you would like here are some suggestions: crystal ball, fortune teller, fortune cookie...
+  * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "crystal ball", "stars", or "starry night"
 * Add a `<button>` to the page that says "TELL MY FORTUNE!" put an id on this button tag. (you will use the id later)
 
 ### Contact Page in contact.html
+* Put an `id` on the `<body>`. See below for an example
+  ``` HTML
+  <body id="contact-body">
+    ...
+  </body>
+  ```
+* In style.css select the `id` to add a background image on the contact page using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
 * Add a background image to the body using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
   * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "fortune" into the search bar.
-* Add a `<div>` that has some made up contact information
-  <!-- TODO add example image -->
+* Add a `<div>` that has some made up contact information. See the example below.
+  ``` HTML
+  <div id="contact">
+    <p id="address"></p>
+    <p id="phone number"></p>
+  </div>
+  ```
 
 ### Reviews Page in reviews.html
-* Use a `<table>` HTML tag to create a list of reviews 
-  <!-- TODO add example image -->
+* Use a [`<table>` HTML](https://www.w3schools.com/html/html_tables.asp) tag to create a list of reviews. See the example below:
+  ![example table](images/example-table.png)
 
 ## LEVEL TWO
 
