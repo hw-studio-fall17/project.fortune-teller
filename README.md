@@ -83,7 +83,7 @@ _____________________________________________________________________________
       var exampleAnswer = prompt("How are you?")
     ```
     
-  * Write and `if` / `else if` / `else` statement that give the user a fortune. Look at this [example](https://www.w3schools.com/js/js_if_else.asp)
+  * Write an `if` / `else if` / `else` statement that give the user a fortune. Look at this [example](https://www.w3schools.com/js/js_if_else.asp)
     * **If** variable `number` is equal to 1, `alert()` the user: "You will have a happy life!"
     * **Else if** the number is 2, `alert()` the user: "There is great danger in your future!"
     * **Else if** the number is 3 `alert()` the user: "You will meet your soulmate today!"
