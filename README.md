@@ -2,7 +2,7 @@
 
 ##### You're going to create a fortune telling website!
 
-#### Check out this example:
+#### Check out these examples:
 * http://tarot.fortunetellingfun.com/
 * http://www.freefortuneonline.com/
 * http://online-fortune-telling.com/
