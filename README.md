@@ -75,12 +75,12 @@ _____________________________________________________________________________
 
 ### In `script.js`
 * Select the "TELL MY FORTUNE" button using it's `id` and save it as a JavaScript variable. For example:
-  * ``` var exampleVariable = $("#example-id") ```
+  * ``` var exampleVariable = $("#example-id"); ```
 * Call the [click() jQuery function](https://api.jquery.com/click/) on your variable. 
   * Once the user clicks on the button we want to use prompt() to ask the user to "pick a number: 1, 2, 3, or 4". See [here](https://www.w3schools.com/jsref/met_win_prompt.asp) for an example
   * Save this prompt as a variable called `number`. See the example below:
     ```
-      var exampleAnswer = prompt("How are you?")
+      var exampleAnswer = prompt("How are you?");
     ```
     
   * Write an `if` / `else if` / `else` statement that give the user a fortune. Look at this [example](https://www.w3schools.com/js/js_if_else.asp)
@@ -103,8 +103,8 @@ _____________________________________________________________________________
 ### In `script.js`
 * Test out the jQuery `append()` function. Write the code below in your `script.js` to see what the `append()` function does.
   ``` 
-    var body = $("body")
-    body.append("<h1>THIS IS A TEST</h1>")
+    var body = $("body");
+    body.append("<h1>THIS IS A TEST</h1>");
   ```
 * Change the fortune telling `alert()`s to use `.append()` so that the fortune is displayed on the page instead of in an `alert()`
 
