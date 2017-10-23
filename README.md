@@ -30,7 +30,7 @@ _____________________________________________________________________________
 * Change the text color of this page (you can keep it black if you prefer that)
 * Add an image to your page. It can be whatever image you would like here are some suggestions: crystal ball, fortune teller, fortune cookie...
   * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "crystal ball", "stars", or "starry night"
-* Add a `<button>` to the page that says "TELL MY FORTUNE!" put an id on this button tag. (you will use the id later)
+* Add a `<button>` to the page that says "TELL MY FORTUNE!" put an `id` on this button tag. (you will use the `id` later)
 
 ### Contact Page in `contact.html`
 * Put an `id` on the `<body>`. See below for an example
@@ -40,7 +40,6 @@ _____________________________________________________________________________
   </body>
   ```
 * In style.css select the `id` to add a background image on the contact page using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
-* Add a background image to the body using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
   * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "fortune" into the search bar.
 * Add a `<div>` that has some made up contact information. See the example below.
   ``` HTML
@@ -49,6 +48,8 @@ _____________________________________________________________________________
     <p id="phone number"></p>
   </div>
   ```
+* Select the `div` by it's `id` and set the `background-color` to an [`rgba()` value](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_color_rgba)
+* Center the `div`
 
 ### Reviews Page in `reviews.html`
 * Use a [`<table>` HTML](https://www.w3schools.com/html/html_tables.asp) tag to create a list of reviews. See the example below:
@@ -96,7 +97,12 @@ _____________________________________________________________________________
 ### Home Page
 * In `script.js` select the nav bar by it's `id` using jQuery and save it in a variable called `navBar`. It will look something like this 
   ` var exampleSelect = $("#example-id"); `
-* Make your navigation bar slowly fade in when the page loads. Hint: you will need to use the jQuery [fadeIn() function](http://api.jquery.com/fadein/). Google it if you forget how it works.
+* We are going to make your navbar slowly fade in:
+  * First hide your navbar. This will look something like this:
+    ``` 
+      exampleSelect.hide()
+    ```
+  * Use the [fadeIn() function](http://api.jquery.com/fadein/) to make the navbar fade in. Google it if you forget how it works.
 * Get rid of the underlines on the link tags in your navigation. Google "how to remove underlines from link tags with CSS"
 
 
