@@ -20,7 +20,26 @@ img{
 	margin-left: 25%;
 	margin-right: 25%;
 }
-#body-contact {
-	background-image: url("https://www.smofried.com/wp-content/uploads/2016/05/Smofried-Smoke.jpg");
-	width: 20px;
+#contact-body {
+	background-image: url("images/Smofried-Smoke.png");
+
 }
+h1 {
+	color: #0de2aa;
+}
+#contact {
+	color: #0de2aa;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+
